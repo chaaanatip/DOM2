@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <h2>Register</h2>
+    <div>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+    </div>
+
+    <div>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+
+    <div>
+        <button type="submit">Register</button>
+    </div>
+
+    //for show userRegister
+    <div>
+    </div>
+    <script src="/Webb5/todo5.js"></script>
+</body>
+
+</html>
