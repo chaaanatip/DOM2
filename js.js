@@ -45,15 +45,6 @@ function generateQuiz() {
 
   const br = document.createElement("br")
 
-  const op1 = document.createElement("button")
-  op1.setAttribute("style", "margin : 5px")
-  const op2 = document.createElement("button")
-  op2.setAttribute("style", "margin : 5px")
-  const op3 = document.createElement("button")
-  op3.setAttribute("style", "margin : 5px")
-  const op4 = document.createElement("button")
-  op4.setAttribute("style", "margin : 5px")
-
   const options = jod.options
   const answer = jod.answer
 
